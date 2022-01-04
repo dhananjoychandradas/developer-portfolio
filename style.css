@@ -1,28 +1,61 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+body{ margin:0;
+    font-family: 'Poppins', sans-serif;}
+
+section{
+   display: flex;
+   align-items: center;
 }
-h1{font-size: 50px;
-}
-.name-color{color: #FFA500;}
-.ekline-ana{
+.half-width{
     width: 50%;
-    padding-left: 2%;
-    border: 0 solid white;
-}
-#maja-maji{ padding-left: 7%;
-            padding-right: 5%;
+    padding: 5%;
 }
 
+.orange-color{
+    color: #FFA808 ;
+}
+h3{ color: #FFA808 ;}
 a{
- background-image: linear-gradient(#FF6C4E,#FF9C77);
+    text-decoration: none;
+ color: white;
  padding: 10px 40px;
- border-radius: 10px;
- text-decoration: none;
- color: #FFFBFF;
+ border-radius: 5px;
+    background-image: -webkit-linear-gradient(#FF6C4F,#FF7A5A, #FF9974);
 }
-section{display: flex;}
-.top-banner{
-    background-image: url(images/top-banner.png);
+.img-width{width: 90%;}
+.top-banner{  background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-}
+background-position: left;}
+
+    .mid-banner{  background-image: url("images/dream-bg.png");
+       background-position: right;
+        background-repeat: no-repeat;}
+
+ .botom-banner{  background-image: url("images/exp-bg.png");
+ background-repeat: no-repeat;
+  background-position: left;}
+
+.box-degine1
+{
+ box-shadow: 5px 7px 40px grey;
+ height: 80%;
+ padding: 5px;
+ border-left: 7px solid;
+ border-image:linear-gradient(
+    180deg, blue, cyan);
+    border-image-slice: 1;
+        }
+
+.box-degine2
+{
+ box-shadow: 5px 7px 40px grey;
+ height: 80%;
+ padding: 5px;
+ border-left: 7px solid;
+ border-image:linear-gradient(
+180deg, red, orange, tomato);
+border-image-slice: 1;
+        }
+
+#foot {
+    text-align: center;
+}      
